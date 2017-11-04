@@ -4,3 +4,9 @@ C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleRespo
 C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.csproj.CoreCompileInputs.cache
 C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.exe
 C:\Users\tgibbons\Source\Repos\cis-3285-unit-9-practice-tgibbons-css\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.pdb
+E:\Software Design\GithubClones\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.exe.config
+E:\Software Design\GithubClones\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.exe
+E:\Software Design\GithubClones\SingleResponsibilityPrinciple\bin\Debug\SingleResponsibilityPrinciple.pdb
+E:\Software Design\GithubClones\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.csprojResolveAssemblyReference.cache
+E:\Software Design\GithubClones\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.exe
+E:\Software Design\GithubClones\SingleResponsibilityPrinciple\obj\Debug\SingleResponsibilityPrinciple.pdb
