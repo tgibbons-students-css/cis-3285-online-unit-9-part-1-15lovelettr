@@ -68,11 +68,11 @@ namespace SingleResponsibilityPrinciple
                 return false;
             }
             if (tradeAmount < 1000) {
-                LogMessage("WARN", "Trade amount is too small: ", currentLine, fields[1]);
+                LogMessage("WARN", "Trade amount is too small", currentLine, fields[1]);
                 return false;
             }
             if (tradeAmount > 100000) {
-                LogMessage("WARN", "Trade amount is too large: ", currentLine, fields[1]);
+                LogMessage("WARN", "Trade amount is too large", currentLine, fields[1]);
                 return false;
             }
 
@@ -89,6 +89,10 @@ namespace SingleResponsibilityPrinciple
         private void LogMessage(string msgType, string message, params object[] args)
         {
             Console.WriteLine(msgType+ " :" +message, args);
+            using (StreamWriter logfile = File.AppendText("log.xml"))
+            {
+                logfile.WriteLine("<log><type>"+ msgType +"</type><message>" + message + "</message></log> ", args);
+            }
         }
 
         private TradeRecord MapTradeDataToTradeRecord(string[] fields)
